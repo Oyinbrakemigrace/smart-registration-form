@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.min.css">
+</head>
+<body>
+
+    <div class="notification" id="notification">
+        <p id ="text">Lorem ipsum dolor</p>
+        <i class="fa-solid fa-times" id="cancel" onclick="cancelClick()"></i>
+    </div>
+    
+    <fieldset>
+    <legend>
+        <marquee behavior="" direction="">Smart Form</marquee>
+    </legend>
+
+    <form>
+
+        <div>
+            <label>FirstName</label>
+            <input type="text" id="fname" name="fname" required>
+        </div>
+
+        <div>
+            <label>LastName</label>
+            <input type="text" id="lname" name="lname" required>
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+
+        <div>
+            <label>Phone</label>
+            <input type="text" id="phone" name="pn" required>
+        </div>
+
+        <div>
+            <label>Password</label>
+            <input type="password" id="pwd" required>
+        </div>
+
+        <div>
+            <button id="btn" type="button" onclick="handleClick()"> Submit </button>
+        </div>
+    </form>
+    </fieldset>
+    <script src="./script.js"></script>
+    <script src="jquery-3.6.3.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
+
